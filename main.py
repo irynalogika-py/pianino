@@ -1,4 +1,4 @@
-from pygame import *
+from pygame import *  # noqa: F403
 from settings import *
 from sounds import load_sounds
 from keys import draw_keys, create_key_rects
