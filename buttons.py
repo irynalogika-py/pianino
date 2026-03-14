@@ -3,7 +3,7 @@ from pygame import Rect, mouse, transform, image, MOUSEBUTTONDOWN, draw
 
 class Button:
     def __init__(self, x, y, width, height, text: str = "", action=None, img_idle=None,
-                             img_hover=None, center: bool = False):
+                 img_hover=None, center: bool = False):
         self.text = text
         self.action = action
         self.img_idle = img_idle

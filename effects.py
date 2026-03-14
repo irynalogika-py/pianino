@@ -1,5 +1,5 @@
 from pygame import draw, transform, image
-# from settings import BLACK
+from settings import BLACK
 
 # Картинки нот
 C_IMG = transform.scale(image.load('assets/images/notes/c.png'), (50, 50))
@@ -37,7 +37,6 @@ def update_and_draw_flying_notes(screen):
             to_remove.append(note)
     for note in to_remove:
         _FLYING_NOTES.remove(note)
-
 
 # def draw_key_effect(screen, rect, is_pressed=False, note=None):
 #     if not is_pressed:
